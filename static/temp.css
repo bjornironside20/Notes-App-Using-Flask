@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.container {
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.add-btn {
+  display: block;
+  text-align: center;
+  background-color: #2563eb;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+.add-btn:hover {
+  background-color: #1e40af;
+}
+.notes-container {
+  margin-top: 20px;
+}
+
+.note-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+form {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #1e4ed8;
+}
+
+.actions {
+  margin-top: 12px;
+}
+
+.actions form {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background-color: #e41c1c;
+}
+
+.edit-btn {
+  background-color: #ef4444;
+  display: block;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn:hover {
+  background-color: #e41c1c;
+}
